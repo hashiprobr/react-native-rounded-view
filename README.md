@@ -60,7 +60,7 @@ import { View, Text } from 'react-native';
 
 import RoundedView from '@hashiprobr/react-native-rounded-view';
 
-export default function Main() {
+export default function MyComponent() {
     return (
         <View
             style={{
