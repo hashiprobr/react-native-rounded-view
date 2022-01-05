@@ -9,8 +9,8 @@ border radius of a component. However, this prop does not accept percentage
 values.
 
 The `RoundedView` React Component is a `View` that defines its border radius by
-percentage and has `overflow: 'hidden'` by default. It is particularly useful to
-create a view with circular shape.
+percentage and has `overflow: 'hidden'`. It is particularly useful to create a
+view with circular shape.
 
 Please note that this is not equivalent to the the [`border-radius` CSS
 property](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius),

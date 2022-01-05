@@ -24,6 +24,14 @@ export default function RoundedView(props) {
             style={{
                 ...props.style,
                 borderRadius: radius,
+                borderTopLeftRadius: radius,
+                borderTopRightRadius: radius,
+                borderTopStartRadius: radius,
+                borderTopEndRadius: radius,
+                borderBottomLeftRadius: radius,
+                borderBottomRightRadius: radius,
+                borderBottomStartRadius: radius,
+                borderBottomEndRadius: radius,
                 overflow: 'hidden',
             }}
             onLayout={onLayout}
