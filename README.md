@@ -21,8 +21,40 @@ not possible to create a view with oval shape.
 Install
 -------
 
+With npm:
+
 ```
 npm install @hashiprobr/react-native-rounded-view
+```
+
+With yarn:
+
+```
+yarn add @hashiprobr/react-native-rounded-view
+```
+
+If using Expo, add the module to `webpack.config.js`:
+
+``` js
+const createExpoWebpackConfigAsync = require('@expo/webpack-config');
+
+module.exports = async function (env, argv) {
+    const config = await createExpoWebpackConfigAsync({
+        ...env,
+        babel: {
+            dangerouslyAddModulePathsToTranspile: [
+                '@hashiprobr/react-native-rounded-view',
+            ]
+        },
+    }, argv);
+    return config;
+};
+```
+
+If `webpack.config.js` does not exist, create it with:
+
+```
+expo customize:web
 ```
 
 
