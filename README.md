@@ -18,6 +18,17 @@ because the calculations consider the minimum between width and height. It is
 not possible to create a view with oval shape.
 
 
+Peer dependencies
+-----------------
+
+``` json
+{
+    "react": "^17.0.1",
+    "react-native": ">=0.64.3"
+}
+```
+
+
 Install
 -------
 
@@ -44,7 +55,7 @@ module.exports = async function (env, argv) {
         babel: {
             dangerouslyAddModulePathsToTranspile: [
                 '@hashiprobr/react-native-rounded-view',
-            ]
+            ],
         },
     }, argv);
     return config;
