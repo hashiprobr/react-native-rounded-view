@@ -123,7 +123,7 @@ export default function MyComponent() {
                 <RoundedView
                     style={{
                         flexGrow: 1,
-                        alignItems: 'stretch',
+                        alignSelf: 'stretch',
                         justifyContent: 'center',
                         alignItems: 'center',
                         backgroundColor: '#ffffff',
