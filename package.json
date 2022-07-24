@@ -1,6 +1,6 @@
 {
   "name": "@hashiprobr/react-native-rounded-view",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A React Native View that defines its border radius by percentage",
   "keywords": [
     "JavaScript",
@@ -26,7 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "react": "^17.0.1",
-    "react-native": ">=0.64.3"
+    "react": "17.0.2",
+    "react-native": "0.68.2"
   }
 }
