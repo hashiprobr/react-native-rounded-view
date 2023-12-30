@@ -1,6 +1,8 @@
 react-native-rounded-view
 =========================
 
+[PROJECT DISCONTINUED]
+
 **A React Native View that defines its border radius by percentage**
 
 React Native offers the [`borderRadius` style
